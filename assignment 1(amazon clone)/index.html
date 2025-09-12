@@ -1,139 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Amazon — Shop Online</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='110' height='34'><rect width='100%' height='100%' fill='%23008a00'/><text x='8' y='22' font-family='Arial' font-size='18' fill='%23fff'>amazon</text></svg>" alt="logo" class="logo" />
+    <div class="box">
+    <div class="header">
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJEsLucn6b9xPwccsc6dyYNBBCfpJ8-tVMUQ&s" height="50px" width="170px"></div>
+        <div>Delivery to ghaziabad-201001</div>
+        <div><input type="text" id="name" placeholder="Search.Amazon.in"></div>
+        <div>Hello,Sign in</div>
+        <div>Returns and Orders</div>
+        <div>Cart</div>
     </div>
-
-    <form class="search" role="search" aria-label="Search">
-      <select class="search-cat" aria-label="All">
-        <option>All</option>
-        <option>Books</option>
-        <option>Electronics</option>
-        <option>Clothing</option>
-      </select>
-      <input class="search-input" type="search" placeholder="Search products, brands and more" />
-      <button class="search-btn" type="submit">Search</button>
-    </form>
-
-    <nav class="header-links">
-      <a href="#">Hello, Sign in</a>
-      <a href="#">Returns<br><span class="muted">& Orders</span></a>
-      <a href="#" class="cart">Cart<br><span class="muted">0</span></a>
-    </nav>
-  </header>
-
-  <nav class="subnav">
-    <ul>
-      <li><a href="#">Today's Deals</a></li>
-      <li><a href="#">Customer Service</a></li>
-      <li><a href="#">Gift Cards</a></li>
-      <li><a href="#">Registry</a></li>
-      <li><a href="#">Sell</a></li>
-    </ul>
-  </nav>
-
-  <main class="container">
-    <section class="hero">
-      <div class="hero-left">
-        <h1>Welcome to Amazon</h1>
-        <p>Find the best products, deals and more. Fast delivery, easy returns.</p>
-        <a class="cta" href="#">Shop Today's Deals</a>
-      </div>
-      <div class="hero-right">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='420' height='220'><rect width='100%' height='100%' fill='%23f3f4f6'/><text x='18' y='110' font-family='Arial' font-size='20' fill='%23666'>Promotional Banner</text></svg>" alt="promo" />
-      </div>
-    </section>
-
-    <section class="grid-section">
-      <h2>Popular picks</h2>
-      <div class="product-grid">
-        <!-- repeat a simple product card 8 times -->
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Wireless Headphones</h3>
-          <p class="card-price">₹1,499</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Smartphone Case</h3>
-          <p class="card-price">₹399</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Stainless Steel Bottle</h3>
-          <p class="card-price">₹699</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Bluetooth Speaker</h3>
-          <p class="card-price">₹999</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Paperback Novel</h3>
-          <p class="card-price">₹249</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Wireless Mouse</h3>
-          <p class="card-price">₹799</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">LED Desk Lamp</h3>
-          <p class="card-price">₹1,199</p>
-          <button class="btn">Add to cart</button>
-        </article>
-
-        <article class="card">
-          <div class="card-img" aria-hidden="true"></div>
-          <h3 class="card-title">Fitness Band</h3>
-          <p class="card-price">₹1,999</p>
-          <button class="btn">Add to cart</button>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-grid">
-      <div>
-        <h4>Get to Know Us</h4>
-        <a href="#">Careers</a>
-        <a href="#">About Us</a>
-      </div>
-      <div>
-        <h4>Make Money with Us</h4>
-        <a href="#">Sell on Amazon</a>
-        <a href="#">Become an Affiliate</a>
-      </div>
-      <div>
-        <h4>Let Us Help You</h4>
-        <a href="#">Your Account</a>
-        <a href="#">Returns Centre</a>
-      </div>
+    <div class="subheader">
+        <div><h>Todays's Deals</h></div>
+        <div>MX player</div>
+        <div>Sell</div>
+        <div>Best Sellers</div>
+        <div>Mobile</div>
+        <div>Today's deals</div>
+        <div>Prime</div>
+        <div>Customer</div>
     </div>
-    <div class="copyright">© 2025, Amazon-like demo — for learning only</div>
-  </footer>
+<div class="box1">
+
+<div class="box11">
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg" height="100px" width="100px">
+</div>
+<div class="box12">box12</div>
+<div class="box13">box13</div>
+<div class="box14">box14</div>
+</div>
+<div class="box2">
+  <div class="box15">
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg" height="100px" width="100px">
+</div>
+<div class="box12">box12</div>
+<div class="box13">box13</div>
+<div class="box14">box14</div>
+</div>
+<div class="box3">Box3</div>
+<div class="box4">Box4</div>
+
+    </div>
+    <div class="footer">
+        <div>Home</div>
+        <div>account info</div>
+        <div>Customer care</div>
+        <div>Order history</div>
+    </div>
 </body>
 </html>
