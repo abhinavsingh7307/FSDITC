@@ -50,10 +50,6 @@ background-color: aquamarine;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(2,1fr);
-/* grid-column-start: 1;
-grid-column-end: 4;
-grid-row-start: 1;
-grid-row-end: 2; */
 gap: 10px;
 }
 .box11{
@@ -63,8 +59,10 @@ border: 1px solid red;
 background-color: chartreuse;
 margin-top: 20px;
 margin-left: 10px;
-
-
+}
+.box11 img{
+   height: 100%;
+   width: 100%;
 }
 
 .box12{
@@ -74,6 +72,11 @@ border: 1px solid red;
 background-color:bisque;
 margin-top: 20px;
 }
+
+.box12 img{
+   height: 100%;
+   width: 100%;
+}
 .box13{
     width: 150px;
 height: 150px;
@@ -82,26 +85,45 @@ background-color:cornsilk;
 margin-left: 10px;
 }
 
+.box13 img{
+   height: 100%;
+   width: 100%;
+}
 .box14{
     width: 150px;
 height: 150px;
 border: 1px solid red;
 background-color:darkgrey
 }
+.box14 img{
+   height: 100%;
+   width: 100%;
+}
 .box2{
 border: 1px dotted red;
 background-color:beige;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 10px;
+
 }
 
 .box3{
 border: 1px dotted red;
 background-color:burlywood;
-}
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 10px;
 
-.box3:hover {
-    background-color: blue;
 }
 .box4{
 border: 1px dotted red;
 background-color: bisque;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 10px;
+
 }
